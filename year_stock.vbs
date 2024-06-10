@@ -147,7 +147,7 @@ Sub year_stock()
             'test if current index's stock volume value is greater
             'than the greatest volume place holder
             'if so change the greatest volume place holder
-            'equals to curren index's stock volume value
+            'equals to current index's stock volume value
             If ws.Range("L" & i).Value > greatV Then
             
                 greatV = ws.Range("L" & i).Value
